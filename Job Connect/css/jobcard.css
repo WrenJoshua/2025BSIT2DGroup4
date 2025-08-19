@@ -1,0 +1,81 @@
+    .work {
+      display:flex;
+      padding: 2.5%;
+      gap: 2.5%;
+    }
+
+    .Workheader {
+      text-align: left;
+      font-weight: bold;
+      color: #491541;
+      margin: 2.5% 2.5% 0 2.5%;
+    }
+
+    .card {
+      width: 340px;
+      border: 1px solid #cccccc;
+      border-radius: 12px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+      box-shadow: 0 2px 5px #0000001a;
+      transition: box-shadow 0.3s ease;
+      font-family: Arial, sans-serif;
+    }
+
+    .card:hover {
+      box-shadow: 0 4px 10px #00000033;
+    }
+
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .title {
+      font-weight: bold;
+      color: #491541;
+    }
+    img {
+      width: 60px;
+      height: 60px;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+    .info {
+      margin: 8px 0;
+      color: #555555;
+      font-size: 14px;
+    }
+    .Cardfooter {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      color: #808080;
+    }
+
+    .save {
+      background: #eeeeee;
+      padding: 6px 12px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .apply {
+      background: #8C3C89;
+      color: #ffffff;
+      padding: 6px 12px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .save:hover {
+      background: #dcdcdc;
+    }
+
+    .apply:hover {
+      background: #5a1f6f;
+    }
